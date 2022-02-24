@@ -5,7 +5,7 @@ This project was created to pass [FCC](https://www.freecodecamp.org/) Visualize 
 
 ## Available Scripts
 
-project [gh-page](https://alialghanay.github.io/bar-chart/).
+project [gh-page](https://alialghanay.github.io/scatterplot-graph/).
 
 ## Project User Story 
 ### 1: 
