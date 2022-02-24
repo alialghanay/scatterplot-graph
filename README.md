@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# USA GDP Bar Chart
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created to pass [FCC](https://www.freecodecamp.org/) Visualize Data with a Scatterplot Graph Challenge.
+
 
 ## Available Scripts
 
-In the project directory, you can run:
+project [gh-page](https://alialghanay.github.io/bar-chart/).
 
-### `npm start`
+## Project User Story 
+### 1: 
+ I can see a title element that has a corresponding `id="title"`.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 2:
+I can see an x-axis that has a corresponding `id="x-axis"`.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 3:
+I can see a y-axis that has a corresponding `id="y-axis"`.
 
-### `npm test`
+### 4:
+ I can see dots, that each have a class of dot, which represent the data being plotted.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 5:
+Each dot should have the properties `data-xvalue` and `data-yvalue` containing their corresponding `x` and `y` values.
 
-### `npm run build`
+### 6:
+ The `data-xvalue` and `data-yvalue` of each dot should be within the range of the actual data and in the correct data format. For `data-xvalue`, integers (full years) or `Date` objects are acceptable for test evaluation. For `data-yvalue` (minutes), use `Date` objects.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 7:
+The `data-xvalue` and its corresponding dot should align with the corresponding point/value on the x-axis.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 8:
+The `data-yvalue` and its corresponding dot should align with the corresponding point/value on the y-axis.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 9:
+I can see multiple tick labels on the y-axis with `%M:%S` time format.
 
-### `npm run eject`
+### 10:
+I can see multiple tick labels on the `x-axis` that show the year.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 11:
+I can see that the range of the x-axis labels are within the range of the actual x-axis data.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 12:
+I can see that the range of the y-axis labels are within the range of the actual y-axis data.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 13:
+I can see a legend containing descriptive text that has `id="legend"`.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 14:
+I can mouse over an area and see a tooltip with a corresponding `id="tooltip"` which displays more information about the area.
 
-## Learn More
+### 15:
+My tooltip should have a `data-year` property that corresponds to the `data-xvalue` of the active area.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Here is the dataset you will need to complete this project: [YCList Data](https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/cyclist-data.json).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## testing the project.
 
-### Code Splitting
+you can test the project if it passing user story by downloading it and then add this:
+`<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
+to == bar-chart\public\index.html ==.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# this project made by @alialghanay.
